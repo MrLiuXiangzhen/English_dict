@@ -1,5 +1,5 @@
 # english_dict
->>The first test of me
+The first test of me
 
 >Using for study mysql python socket TCP 
 >Include dic_client dict_server insert_world operation_db and dict
@@ -10,22 +10,22 @@
     >>数据库     MySQL
 
 >2.确定数据库：建立几个表，每个表作用和存储内容
-    >>create database dict charset=utf8;
-    >建表
-    >存储用户   用户表 id  name   password
-    >>create table user(id int primary key auto_increment,name varchar(32) not null,passwd varchar(128) not null);
-    >历史记录         id  name   word    time
-    >>create table hist(id int primary key auto_increment,name varchar(32) not null,word varchar(32) not null,time varchar(64) not null);
-    >单词表           id  word   mead
-    >>create table words(id int primary key auto_increment,word varchar(32),mean text);
-    >编写程序将单词本存入数据库
+    - create database dict charset=utf8;
+    - 建表
+    - 存储用户   用户表 id  name   password
+    - create table user(id int primary key auto_increment,name varchar(32) not null,passwd varchar(128) not null);
+    - 历史记录         id  name   word    time
+    - create table hist(id int primary key auto_increment,name varchar(32) not null,word varchar(32) not null,time varchar(64) not null);
+    - 单词表           id  word   mead
+    - create table words(id int primary key auto_increment,word varchar(32),mean text);
+    - 编写程序将单词本存入数据库
 
 >3.结构设计
-    >>客户端
-    >>服务端（处理数据）
+    - 客户端
+    - 服务端（处理数据）
 
 >4.功能分析
-    >>客户端和服务端分别需要实现哪些功能
+    - 客户端和服务端分别需要实现哪些功能
 
     网络模型（并发模型）
     注册
