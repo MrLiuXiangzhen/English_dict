@@ -1,15 +1,15 @@
 # english_dict
 The first test of me
 
->Using for study mysql python socket TCP 
->Include dic_client dict_server insert_world operation_db and dict
+ - Using for study mysql python socket TCP 
+ - Include dic_client dict_server insert_world operation_db and dict
 
->1.确定技术
-    >>通信      TCP通信
-    >>并发      多进程并发
-    >>数据库     MySQL
+## 1.确定技术
+ - 通信      TCP通信
+ - 并发      多进程并发
+ - 数据库     MySQL
 
->2.确定数据库：建立几个表，每个表作用和存储内容
+## 2.确定数据库：建立几个表，每个表作用和存储内容
     - create database dict charset=utf8;
     - 建表
     - 存储用户   用户表 id  name   password
@@ -20,11 +20,11 @@ The first test of me
     - create table words(id int primary key auto_increment,word varchar(32),mean text);
     - 编写程序将单词本存入数据库
 
->3.结构设计
+## 3.结构设计
     - 客户端
     - 服务端（处理数据）
 
->4.功能分析
+## 4.功能分析
     - 客户端和服务端分别需要实现哪些功能
 
     网络模型（并发模型）
